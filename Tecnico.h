@@ -11,9 +11,11 @@ private:
 
     int aniosExperiencia;
     bool esNacional;
+
 public:
+
     Tecnico(string nombre, string apellido, int edad, int aniosExperiencia, bool esNacional);
     ~Tecnico();
-    string getString(); // no se que pide
+    void getStringT();
 };
 #endif //TEMPLATECPP_TECNICO_H

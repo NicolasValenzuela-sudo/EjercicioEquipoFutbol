@@ -12,7 +12,7 @@ class Delantero : public Jugador {
 public:
     Delantero(string nombre, string apellido, int edad, bool esTitular, int golesAnotados);
     ~Delantero();
-    string getString();
+    string getStringDe();
 };
 
 #endif //TEMPLATECPP_DELANTERO_H

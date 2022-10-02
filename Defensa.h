@@ -14,6 +14,6 @@ public:
 
     ~Defensa();
 
-    string getString();
+    string getStringD();
 };
 #endif //TEMPLATECPP_DEFENSA_H

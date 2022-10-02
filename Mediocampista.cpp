@@ -11,6 +11,10 @@ Mediocampista::Mediocampista(string nombre, string apellido, int edad, bool esTi
 }
 Mediocampista::~Mediocampista() {}
 
-string Mediocampista::getString() {
-    return "Mediocampista";
+string Mediocampista::getStringM() {
+
+        cout<< "Nombre: "<<  Persona::getNombre() <<endl;
+        cout<< "Apellido: "<<  Persona::getApellido() <<endl;
+        cout<< "Edad: "<<  Persona::getEdad() <<endl;
+        cout<<"-----------"<<endl;
 }

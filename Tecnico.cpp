@@ -3,6 +3,8 @@
 //
 
 #include "Tecnico.h"
+#include "Persona.h"
+
 
 using namespace std;
 Tecnico::Tecnico(string nombre, string apellido, int edad, int aniosExperiencia, bool esNacional): Persona(nombre, apellido, edad) {
@@ -14,6 +16,11 @@ Tecnico::Tecnico(string nombre, string apellido, int edad, int aniosExperiencia,
 }
 Tecnico::~Tecnico() {}
 
-string Tecnico::getString() {
-    return "Tecnico";
+void Tecnico::getStringT() {
+
+    cout<< "Nombre: "<<  Persona::getNombre() <<endl;
+    cout<< "Apellido: "<<  Persona::getApellido() <<endl;
+    cout<< "Edad: "<<  Persona::getEdad() <<endl;
+    cout<<"--------------------------------"<<endl;
+
 }

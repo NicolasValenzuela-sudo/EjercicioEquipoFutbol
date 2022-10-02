@@ -14,6 +14,10 @@ Portero::Portero(string nombre, string apellido, int edad, bool esTitular, int c
 }
 Portero::~Portero() {}
 
-string Portero::getString() {
-    return "Portero";
+string Portero::getStringP() {
+    cout<< "Nombre: "<<  Persona::getNombre() <<endl;
+    cout<< "Apellido: "<<  Persona::getApellido() <<endl;
+    cout<< "Edad: "<<  Persona::getEdad() <<endl;
+    cout<< "Cantidad de goles recibidos: "<<  cantGolesRecibidos <<endl;
+    cout<<"--------------------------------"<<endl;
 }

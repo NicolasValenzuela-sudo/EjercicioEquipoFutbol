@@ -12,7 +12,7 @@ class Mediocampista : public Jugador {
     public:
     Mediocampista(string nombre, string apellido, int edad, bool esTitular, int numeroAsistencias);
     ~Mediocampista();
-    string getString();
+    string getStringM();
 
 };
 #endif //TEMPLATECPP_MEDIOCAMPISTA_H

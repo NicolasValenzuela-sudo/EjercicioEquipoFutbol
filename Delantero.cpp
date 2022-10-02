@@ -12,6 +12,13 @@ Delantero::Delantero(string nombre, string apellido, int edad, bool esTitular, i
 
 Delantero::~Delantero() {}
 
-string Delantero::getString() {
-    return "Delantero";
+string Delantero::getStringDe() {
+
+    cout<< "Nombre: "<<  Persona::getNombre() <<endl;
+    cout<< "Apellido: "<<  Persona::getApellido() <<endl;
+    cout<< "Edad: "<<  Persona::getEdad() <<endl;
+    cout<< "Goles anotados: "<<  golesAnotados <<endl;
+    cout<<"-----------"<<endl;
+
 }
+

@@ -12,6 +12,6 @@ private:
 public:
     Portero(string nombre, string apellido, int edad, bool esTitular, int cantGolesRecibidos);
     ~Portero();
-    string getString();
+    string getStringP();
 };
 #endif //TEMPLATECPP_PORTERO_H

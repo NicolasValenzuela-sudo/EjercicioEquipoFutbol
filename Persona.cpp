@@ -11,3 +11,8 @@ Persona::Persona(string nombre, string apellido, int edad) {
 
 }
 Persona::~Persona() {}
+
+void  Persona::getString() {
+
+    this->nombre + " " + this->apellido + " ";
+}

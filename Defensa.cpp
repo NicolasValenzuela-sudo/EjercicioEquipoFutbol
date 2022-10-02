@@ -10,7 +10,13 @@ Defensa::Defensa(string nombre, string apellido, int edad, bool esTitular) : Jug
 }
 Defensa::~Defensa() {}
 
-string Defensa::getString() {
-    return "Defensa";
+string Defensa::getStringD() {
+
+    cout<< "Nombre: "<<  Persona::getNombre() <<endl;
+    cout<< "Apellido: "<<  Persona::getApellido() <<endl;
+    cout<< "Edad: "<<  Persona::getEdad() <<endl;
+    cout<<"-----------"<<endl;
+
 }
+
 

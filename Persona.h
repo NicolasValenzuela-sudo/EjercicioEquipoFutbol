@@ -14,12 +14,25 @@ class Persona {
     string nombre;
     string apellido;
 
-        int edad;
+    int edad;
 
     public:
     Persona( string nombre,string apellido, int edad);
     ~Persona();
-    //void mostrar();
+    void getString();
+    string getNombre();
+    string getApellido();
+    int getEdad();
 
 };
+inline string Persona::getNombre() {
+    return this->nombre;
+}
+inline string Persona::getApellido() {
+    return this->apellido;
+}
+inline int Persona::getEdad() {
+    return this->edad;
+}
+
 #endif //TEMPLATECPP_PERSONA_H

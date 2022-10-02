@@ -17,7 +17,11 @@ using namespace std;
 class Equipo {
 
 private:
-
+    Tecnico tecnico;
+    Portero portero;
+    Defensa *defensa;
+    Mediocampista *mediocampo;
+    Delantero *delantero;
     string nombre;
     string pais;
 public:
